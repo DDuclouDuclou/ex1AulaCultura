@@ -31,7 +31,7 @@ jobs:
         run: |
           python -m mypy app
       
-      - name: random - Run random command
+      - name: radon - Run radon command
         run: |
-          python -m random cc app -a
+          python -m radon cc app -a
         
